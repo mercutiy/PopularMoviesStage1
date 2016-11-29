@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_type">Type</string>
+
+    <string name="pref_key_type" translatable="false">pref_type</string>
+
+    <string name="pref_type_key_popular" translatable="false">popular</string>
+    <string name="pref_type_key_top" translatable="false">top_rated</string>
+
+    <string name="pref_type_label_popular">Popular</string>
+    <string name="pref_type_label_top">Top Rated</string>
+
+    <string-array name="pref_type_keys">
+        <item>@string/pref_type_key_popular</item>
+        <item>@string/pref_type_key_top</item>
+    </string-array>
+
+    <string-array name="pref_type_lables">
+        <item>@string/pref_type_label_popular</item>
+        <item>@string/pref_type_label_top</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>
